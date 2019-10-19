@@ -17,6 +17,7 @@
             table
             {
                 border-collapse: collapse;
+                margin-bottom: 10px;
             }
             td
             {
@@ -25,10 +26,16 @@
                 height: 20px;
                 
             }
+            button
+            {
+                
+                background-color:blue;
+                border-radius: 10px;
+            }
             
          </style>
     </head>
-    <body style="margin: 0;padding-left:450px;padding-top:60px;">
+    <body style="">
        
         <%    
             String data="",all="";
@@ -77,5 +84,9 @@
           out.println("<table>"+all+"</table>");
            }
          %>
+         
+         <form action="index.html">
+             <button type="submit">Back</button>
+         </form>
     </body>
 </html>
